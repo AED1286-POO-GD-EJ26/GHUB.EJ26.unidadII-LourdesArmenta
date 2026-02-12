@@ -27,4 +27,9 @@ public class Punto {
         return y;
     }
 
+    public String obtenerDetalles(){
+        return " x = "+x+" y = "+y;
+    }
+    
+
 }

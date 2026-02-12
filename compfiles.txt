@@ -1,3 +1,4 @@
+./logica/Alumno.java
 ./miTest/AppTest.java
 ./miPrincipal/Punto.java
 ./miPrincipal/Principal.java
