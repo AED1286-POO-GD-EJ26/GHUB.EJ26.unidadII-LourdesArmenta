@@ -1,4 +1,14 @@
+./logica/Fecha.java
+./logica/Racional.java
+./logica/Punto.java
 ./logica/Alumno.java
+./soporte2/Marco.java
+./soporte/Marco.java
+./soporte/Foto.java
 ./miTest/AppTest.java
-./miPrincipal/Punto.java
+./miPrincipal/testDemo.java
+./miPrincipal/AppPunto.java
+./miPrincipal/AppFecha.java
+./miPrincipal/AppRacional.java
 ./miPrincipal/Principal.java
+./miPrincipal/AppAlumno.java

@@ -1,4 +1,4 @@
-package miPrincipal;
+package logica;
 public class Punto {
     //Atributos
     private int x; //coordenada x
