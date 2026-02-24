@@ -19,6 +19,23 @@ package logica;
         this.mes = mes;
         this.anio = anio;
     }
+    //sobrecargo el constructor
+    public Fecha(String f){
+        //buscamos la primera ocurrencia de '/'
+        int pos1 = f.indexOf('/');
+        //buscamis la segunda ocurrencia de '/'
+        int pos2 = f.lastIndexOf('/');
+        //procesamos el dia
+        String sDia = f.substring(0,pos1);
+        this.dia = Integer.parseInt(sDia);
+        //procesamos el mes
+        String sMes = f.substring(pos1+1,pos2);
+        this.mes = Integer.parseInt(sMes);
+        //procesamos el Año
+        String sAnio = f.substring(pos2+1);
+        this.anio = Integer.parseInt(sAnio);
+
+    }
     public int getDia() {
         return dia;
     }
@@ -50,6 +67,40 @@ package logica;
                     (this.mes == otra.getMes())&& (this.anio == otra.getAnio());
         return resultado;  
     }
+
+    //retorna la fecha expresada en dias
+    private int fechatoDias(){
+        return this.anio*360+this.mes*30+this.dia;
+    }
+    //asigna la fecha en dias a los Atributos
+    private void diasToFecha(int i){
+        //dividimos por 360 y obtenemos el año
+        this.anio = (int) i/360;
+
+        //del resto o residuo de la division anterior
+        //podemos obtener el mes y el dia
+        int resto = i % 360;
+         
+        //el mes el el resto dividido entre 30
+        this.mes =  (int) resto/30;
+
+        //el resto de la dividion anterios son los dias
+        this.dia = resto % 30;
+
+        //ajustamos por si el dia quedo en cero
+        if (dia ==0){
+            dia = 30;
+            mes--;
+        }
+        //ajustamos por si el mes quedo en cero
+        if(mes == 0){
+            mes = 12;
+            anio--;
+        }
+
+
+    }
+
     
    
    

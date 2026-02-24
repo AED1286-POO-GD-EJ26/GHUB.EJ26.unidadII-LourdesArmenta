@@ -50,6 +50,18 @@ public class AppFecha {
         f5.setAnio(2026);
         System.out.println("Fecha: "+f5);
 
+        Fecha f6 = new Fecha("10/11/1968");
+        System.out.println("Fecha6 ="+f6.toString());
+        System.out.println("Año de la fecha6 ="+f6.getAnio());
+        System.out.println("Mes de la fecha6 ="+f6.getMes());
+        System.out.println("Dia de la Fecha6 = "+f6.getDia());
+
+        //Fecha f7 = new Fecha("11/feb/1968"); //marca error en tiempo de ejecucion
+
+
+
+
+
 
 
 
