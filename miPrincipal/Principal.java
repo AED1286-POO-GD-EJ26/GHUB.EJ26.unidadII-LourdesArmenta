@@ -14,7 +14,10 @@ public class Principal {
          System.out.println("1) Alumno");
          System.out.println("2) Punto");
          System.out.println("3) Racional");
-         System.err.println("4) Fecha");
+         System.out.println("4) Fecha");
+         System.out.println("5) Forma");
+         System.out.println("6) Relacion de Composición");
+
 
          System.out.println("\t 0) Salir");
          System.out.print("Seleccione opción:");
@@ -31,6 +34,12 @@ public class Principal {
                break;
             case 4:
                AppFecha.menu();
+               break;
+            case 5:
+               AppForma.menu();
+               break;
+            case 6:
+               AppAutomovil.menu();
                break;
 
             case 0:

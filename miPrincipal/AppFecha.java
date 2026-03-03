@@ -58,6 +58,14 @@ public class AppFecha {
 
         //Fecha f7 = new Fecha("11/feb/1968"); //marca error en tiempo de ejecucion
 
+        Fecha f7 = new Fecha("23/12/1980");
+
+        //le sumamos esos dias a la fecha
+        f7.addDias(180);
+
+        //mostramos la nueva fecha (con los dias sumados)
+        System.out.println("sumando 180 dias, queda = "+f7);
+        
 
 
 

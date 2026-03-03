@@ -100,6 +100,12 @@ package logica;
 
 
     }
+    public void addDias(int d){
+        //convertimos la fecha a dias y le sumamos d
+        int sum = fechatoDias()+d;
+        //la fecha resultante (sum) se separa en dia,mes y anio
+        this.diasToFecha(sum);
+    }
 
     
    

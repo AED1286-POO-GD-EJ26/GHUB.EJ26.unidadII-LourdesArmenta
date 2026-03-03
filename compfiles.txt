@@ -6,8 +6,10 @@
 ./soporte/Marco.java
 ./soporte/Foto.java
 ./miTest/AppTest.java
+./build/logica/Forma.java
 ./miPrincipal/testDemo.java
 ./miPrincipal/AppPunto.java
+./miPrincipal/AppForma.java
 ./miPrincipal/AppFecha.java
 ./miPrincipal/AppRacional.java
 ./miPrincipal/Principal.java
