@@ -17,6 +17,7 @@ public class Principal {
          System.out.println("4) Fecha");
          System.out.println("5) Forma");
          System.out.println("6) Relacion de Composición");
+         System.out.println("7) Relación de Agregación");
 
 
          System.out.println("\t 0) Salir");
@@ -40,6 +41,9 @@ public class Principal {
                break;
             case 6:
                AppAutomovil.menu();
+               break;
+            case 7:
+               AppComputadora.menu();
                break;
 
             case 0:

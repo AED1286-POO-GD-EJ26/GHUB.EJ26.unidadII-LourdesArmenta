@@ -22,6 +22,11 @@ public class Motor {
     public void setPotencia(int potencia) {
         this.potencia = potencia;
     }
+    @Override
+    public String toString() {
+        return "Motor [tipo=" + tipo + ", potencia=" + potencia + "]";
+    }
+    
     
     
     
