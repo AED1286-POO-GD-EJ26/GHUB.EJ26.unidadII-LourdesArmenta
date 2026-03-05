@@ -34,7 +34,8 @@ public class Computadora {
     }
     @Override
     public String toString() {
-        return "Computadora [marca=" + marca + ", modelo=" + modelo + ", monitor=" + monitor + "]";
+        return "Computadora [marca=" + marca + ", modelo=" + modelo +
+         ", monitor=" + monitor + "]";
     }
     
 

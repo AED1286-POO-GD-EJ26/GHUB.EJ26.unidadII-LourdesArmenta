@@ -1,5 +1,6 @@
 ./logica/Fecha.java
 ./logica/Racional.java
+./logica/Estudiante.java
 ./logica/Monitor.java
 ./logica/Motor.java
 ./logica/Punto.java
@@ -9,6 +10,7 @@
 ./logica/Auto.java
 ./logica/Moto.java
 ./logica/Automovil.java
+./logica/Profesor.java
 ./logica/Barco.java
 ./soporte2/Marco.java
 ./soporte/Marco.java
@@ -22,5 +24,6 @@
 ./miPrincipal/AppComputadora.java
 ./miPrincipal/AppRacional.java
 ./miPrincipal/Principal.java
+./miPrincipal/AppProfesor.java
 ./miPrincipal/AppAlumno.java
 ./miPrincipal/AppAutomovil.java

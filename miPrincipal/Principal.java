@@ -18,6 +18,8 @@ public class Principal {
          System.out.println("5) Forma");
          System.out.println("6) Relacion de Composición");
          System.out.println("7) Relación de Agregación");
+         System.out.println("8) Relación de Asociación");
+         System.out.println("9) Relación de uno a Muchos");
 
 
          System.out.println("\t 0) Salir");
@@ -44,6 +46,9 @@ public class Principal {
                break;
             case 7:
                AppComputadora.menu();
+               break;
+            case 8:
+               AppProfesor.menu();
                break;
 
             case 0:
